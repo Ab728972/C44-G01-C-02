@@ -67,6 +67,15 @@
                                                           // Both variables reference the same object
             }
             #endregion
+            #region Question 7 - String Concatenation
+            static void ConcatenateStrings()
+            {
+                string first = "Hello";
+                string second = "World";
+                string combined = first + " " + second;
+                Console.WriteLine(combined); // Output: "Hello World"
+            }
+            #endregion
         }
     }
 }
