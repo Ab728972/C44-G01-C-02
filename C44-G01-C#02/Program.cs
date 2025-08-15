@@ -83,6 +83,13 @@
                 // Because !(30 < 20) evaluates to true, which converts to 1
             }
             #endregion
+            #region Question 9 - Integer Division and Modulus
+            static void DivisionAndModulus()
+            {
+                // Answer: d) 6 1
+                // Because 13/2 performs integer division (6) and 13%2 gives remainder (1)
+            }
+            #endregion
         }
     }
 }
