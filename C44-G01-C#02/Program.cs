@@ -47,6 +47,16 @@
                 Console.WriteLine($"Substring: {sub}"); // Output: "World"
             }
             #endregion
+            #region Question 5 - Value Type Assignment
+            static void ValueTypeAssignment()
+            {
+                int a = 10;
+                int b = a; // Value copy
+                b = 20;
+                Console.WriteLine($"a: {a}, b: {b}"); // a remains 10, b becomes 20
+                                                      // Value types create independent copies
+            }
+            #endregion
         }
     }
 }
