@@ -76,6 +76,13 @@
                 Console.WriteLine(combined); // Output: "Hello World"
             }
             #endregion
+            #region Question 8 - Boolean Conversion
+            static void BooleanConversion()
+            {
+                // Answer: b) A value 1 will be assigned to d
+                // Because !(30 < 20) evaluates to true, which converts to 1
+            }
+            #endregion
         }
     }
 }
