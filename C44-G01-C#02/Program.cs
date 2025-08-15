@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Question 1 - Basic Input/Output
+            static void PrintEnteredNumber()
+            {
+                Console.Write("Enter a number: ");
+                int number = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine($"You entered: {number}");
+            }
+            #endregion
+
         }
     }
 }
