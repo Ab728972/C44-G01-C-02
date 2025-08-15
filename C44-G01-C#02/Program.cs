@@ -90,6 +90,18 @@
                 // Because 13/2 performs integer division (6) and 13%2 gives remainder (1)
             }
             #endregion
+            #region Question 10 - Increment/Decrement
+            static void IncrementDecrement()
+            {
+                // Answer: d) 7 7
+                // Because:
+                // !(1 <= 0) is true, so first branch executes
+                // ++num (pre-increment) makes num=2
+                // z++ (post-increment) uses 5 then increments to 6
+                // ++z (pre-increment) makes z=7
+                // Calculation: 2 + 5 + " " + 7 → "7 7"
+            }
+            #endregion
         }
     }
 }
