@@ -29,7 +29,16 @@
                 
             }
             #endregion
-
+            #region Question 3 - Floating-Point Arithmetic
+            static void FloatingPointOperation()
+            {
+                double a = 0.1;
+                double b = 0.2;
+                double sum = a + b;
+                Console.WriteLine($"0.1 + 0.2 = {sum}");
+                // Note: Result may show floating-point precision issue (0.30000000000000004)
+            }
+            #endregion
         }
     }
 }
