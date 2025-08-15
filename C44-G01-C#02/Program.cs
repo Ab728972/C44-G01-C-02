@@ -39,6 +39,14 @@
                 // Note: Result may show floating-point precision issue (0.30000000000000004)
             }
             #endregion
+            #region Question 4 - Substring Extraction
+            static void ExtractSubstring()
+            {
+                string text = "Hello World";
+                string sub = text.Substring(6, 5); // Starts at index 6, takes 5 characters
+                Console.WriteLine($"Substring: {sub}"); // Output: "World"
+            }
+            #endregion
         }
     }
 }
