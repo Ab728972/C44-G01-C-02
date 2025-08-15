@@ -57,6 +57,16 @@
                                                       // Value types create independent copies
             }
             #endregion
+            #region Question 6 - Reference Type Assignment
+            static void ReferenceTypeAssignment()
+            {
+                int[] arr1 = { 1, 2, 3 };
+                int[] arr2 = arr1; // Reference copy
+                arr2[0] = 100;
+                Console.WriteLine($"arr1[0]: {arr1[0]}"); // Output: 100
+                                                          // Both variables reference the same object
+            }
+            #endregion
         }
     }
 }
