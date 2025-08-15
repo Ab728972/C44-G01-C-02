@@ -13,6 +13,23 @@
             }
             #endregion
 
+            #region Question 2 - String to Int Conversion
+            static void ConvertStringToInt()
+            {
+                string input = "123abc";
+                try
+                {
+                    int result = Convert.ToInt32(input);
+                    Console.WriteLine($"Conversion result: {result}");
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Error: Input string contains non-numeric characters");
+                }
+                
+            }
+            #endregion
+
         }
     }
 }
